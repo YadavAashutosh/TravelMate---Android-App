@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Menu Button -->
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:drawable/ic_menu_more"
+        android:contentDescription="Menu"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trip Planner"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+    <!-- Search Bar -->
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text"
+        android:layout_marginTop="20dp"
+        android:hint="Search for destinations"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:drawablePadding="10dp"
+        android:textColorHint="#9E9E9E"
+        android:textColor="#212121"
+        android:elevation="4dp" />
+
+    <!-- Plan a Trip Button -->
+    <Button
+        android:id="@+id/btn_plan_trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plan a Trip"
+        android:textStyle="bold"
+        android:backgroundTint="#6200EE"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/et_search"
+        android:layout_marginTop="20dp"
+        android:padding="14dp" />
+
+    <!-- Book Train Ticket Button -->
+    <Button
+        android:id="@+id/btn_book_train"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Train Ticket"
+        android:textStyle="bold"
+        android:backgroundTint="#03DAC5"
+        android:textColor="#212121"
+        android:layout_below="@id/btn_plan_trip"
+        android:layout_marginTop="16dp"
+        android:padding="14dp" />
+
+    <!-- Book Bus Ticket Button -->
+    <Button
+        android:id="@+id/btn_book_bus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Bus Ticket"
+        android:textStyle="bold"
+        android:backgroundTint="#FF9800"
+        android:textColor="#212121"
+        android:layout_below="@id/btn_book_train"
+        android:layout_marginTop="16dp"
+        android:padding="14dp" />
+
+    <!-- View Itinerary Button -->
+    <Button
+        android:id="@+id/btn_view_itinerary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Itinerary"
+        android:textStyle="bold"
+        android:backgroundTint="#8BC34A"
+        android:textColor="#212121"
+        android:layout_below="@id/btn_book_bus"
+        android:layout_marginTop="16dp"
+        android:padding="14dp" />
+
+    <!-- Sign Out Button -->
+    <Button
+        android:id="@+id/btn_signout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hackathon"
+        android:textStyle="bold"
+        android:backgroundTint="#FF5252"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:padding="14dp" />
+
+</RelativeLayout>

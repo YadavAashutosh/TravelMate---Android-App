@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_train_name" type="id" />
+    <item name="tv_train_route" type="id" />
+    <item name="tv_train_time" type="id" />
+    <item name="lv_view_booked_trains" type="id" />
+</resources>

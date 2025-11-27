@@ -1,0 +1,90 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hackathon">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+        <!-- MainActivity as the launcher activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="Login Page" />
+
+        <!-- Signup activity -->
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+
+        <!-- Home activity -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"
+            android:label="Home" />
+
+        <!-- Plan Trip activity -->
+        <activity
+            android:name=".PlanTripActivity"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+
+        <!-- Itinerary activity -->
+        <activity
+            android:name=".ItineraryActivity"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+
+        <!-- Book Train activity -->
+        <activity
+            android:name=".BookTrainActivity"
+            android:exported="true"
+            android:label="Book Train" />
+
+        <!-- Book Bus activity -->
+        <activity
+            android:name=".BookBusActivity"
+            android:exported="true"
+            android:label="Book Bus" />
+
+        <!-- Booked Trains activity -->
+        <activity
+            android:name=".BookedTrainsActivity"
+            android:exported="true"
+            android:label="Booked Trains" />
+
+        <!-- View Booked Trains activity -->
+        <activity
+            android:name=".ViewBookedTrainsActivity"
+            android:exported="true"
+            android:label="View Booked Trains"
+            tools:ignore="MissingClass" />
+
+        <!-- Menu activity (optional, placeholder for menu logic) -->
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false"
+            android:label="Menu"
+            tools:ignore="MissingClass" />
+
+        <!-- Logout activity -->
+
+
+    </application>
+
+</manifest>

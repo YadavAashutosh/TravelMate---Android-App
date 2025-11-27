@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plan Your Trip"
+        android:textColorHint="#9E9E9E"
+
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FF5722"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Destination -->
+    <EditText
+        android:id="@+id/et_destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination"
+        android:textColorHint="#9E9E9E"
+        android:textColor="#000000"
+
+        android:padding="16dp"
+        android:background="#E0E0E0"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <!-- Start Date -->
+    <EditText
+        android:id="@+id/et_start_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Date and Time"
+        android:textColorHint="#9E9E9E"
+        android:textColor="#000000"
+
+        android:padding="16dp"
+        android:background="#E0E0E0"
+        android:layout_marginBottom="16dp"
+        android:focusable="false"
+        android:clickable="true"
+        android:textSize="16sp" />
+
+    <!-- End Date -->
+    <EditText
+        android:id="@+id/et_end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Date and Time"
+        android:textColorHint="#9E9E9E"
+        android:textColor="#000000"
+
+        android:padding="16dp"
+        android:background="#E0E0E0"
+        android:layout_marginBottom="24dp"
+        android:focusable="false"
+        android:clickable="true"
+        android:textSize="16sp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btn_save_trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Trip"
+        android:padding="16dp"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+</LinearLayout>
