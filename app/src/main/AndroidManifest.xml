@@ -82,7 +82,7 @@
             android:label="Menu"
             tools:ignore="MissingClass" />
 
-        <!-- Logout activity -->
+        <!-- Logout activity --->
 
 
     </application>
